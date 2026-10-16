@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "mongoose": "^9.11.2",
     "next": "16.4.2",
     "react": "19.3.0",
     "react-dom": "19.3.0"
